@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">SnapSpin</string>
+
+    <!-- Pantalla inicial -->
+    <string name="home_title">¿Cómo quieres registrar el disco?</string>
+    <string name="home_subtitle">Se elige la edición automáticamente y se añade a tu colección de Discogs.</string>
+    <string name="action_barcode">Código de barras</string>
+    <string name="action_barcode_description">Apunta al código del disco</string>
+    <string name="action_cover">Portada</string>
+    <string name="action_cover_description">Haz una foto de la carátula</string>
+    <string name="missing_credentials">Faltan el token o el usuario de Discogs en local.properties.</string>
+
+    <!-- Cámara -->
+    <string name="camera_hint_barcode">Encuadra el código de barras</string>
+    <string name="camera_hint_cover">Encuadra la portada completa</string>
+    <string name="action_capture">Capturar portada</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="camera_permission_required">Necesitamos la cámara para leer códigos y portadas.</string>
+    <string name="camera_permission_grant">Dar permiso</string>
+    <string name="camera_error">No se ha podido abrir la cámara.</string>
+
+    <!-- Progreso -->
+    <string name="step_recognising">Reconociendo la portada…</string>
+    <string name="step_searching">Buscando en Discogs…</string>
+    <string name="step_choosing">Eligiendo la edición estándar…</string>
+    <string name="step_checking">Comprobando tu colección…</string>
+    <string name="step_registering">Registrando el disco…</string>
+
+    <!-- Confirmación -->
+    <string name="dialog_confirm_title">¿Registrar este disco?</string>
+    <string name="dialog_duplicate_title">Ya está en tu colección</string>
+    <string name="dialog_duplicate_body">Tienes %1$d ejemplar(es) de esta edición. Puedes descartar el registro o sobrescribirlo.</string>
+    <string name="action_register">Registrar</string>
+    <string name="action_overwrite">Sobrescribir</string>
+    <string name="action_discard">Descartar</string>
+    <string name="edition_reason_median">Edición de precio medio entre %1$d ediciones</string>
+    <string name="edition_reason_common">Edición más extendida (sin precio de mercado)</string>
+    <string name="edition_reason_only">Única edición encontrada</string>
+    <string name="edition_price">Desde %1$s · %2$d en venta</string>
+    <string name="folder_label">Colección: %1$s</string>
+
+    <!-- Colección -->
+    <string name="collection_open">Mi colección</string>
+    <string name="collection_open_description">Consulta los discos ya registrados</string>
+    <string name="collection_title">Mi colección</string>
+    <string name="collection_count">%1$d discos</string>
+    <string name="collection_count_filtered">%1$d de %2$d discos</string>
+    <string name="collection_search_hint">Grupo, disco, género, estilo o 1960-1980</string>
+    <string name="collection_clear_search">Borrar búsqueda</string>
+    <string name="collection_empty">Todavía no has registrado ningún disco.</string>
+    <string name="collection_no_results">Ningún disco coincide con la búsqueda.</string>
+    <string name="detail_album_year">Álbum original: %1$s</string>
+    <string name="detail_edition_year">Edición registrada: %1$s</string>
+    <string name="detail_genres">Género: %1$s</string>
+    <string name="detail_styles">Estilos: %1$s</string>
+    <string name="detail_label">Sello: %1$s</string>
+    <string name="detail_format">Formato: %1$s</string>
+    <string name="detail_unknown">desconocido</string>
+    <string name="action_close">Cerrar</string>
+    <string name="order_recent">Recientes</string>
+    <string name="order_oldest">Antiguos</string>
+    <string name="order_artist">Grupo A-Z</string>
+    <string name="order_title">Título A-Z</string>
+    <string name="action_back">Volver</string>
+    <string name="action_refresh">Actualizar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="collection_delete">Eliminar de la colección</string>
+    <string name="collection_delete_title">¿Eliminar este disco?</string>
+    <string name="collection_delete_body">Se quitará «%1$s» de %2$s de tu colección de Discogs. La acción no se puede deshacer.</string>
+    <string name="action_delete">Eliminar</string>
+
+    <!-- Resultado -->
+    <string name="registered_success">Añadido a tu colección: %1$s</string>
+    <string name="registered_replaced">Actualizado en tu colección: %1$s</string>
+    <string name="discarded_message">Registro descartado</string>
+    <string name="error_dialog_title">No se ha podido completar</string>
+    <string name="action_understood">Entendido</string>
+    <string name="generic_error">Ha ocurrido un error inesperado.</string>
+</resources>
